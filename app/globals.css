@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================= LOCAL FONT ================= */
+
+@font-face {
+  font-family: "UbuntuCustom";
+  src: url("/fonts/Ubuntu/Ubuntu-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "UbuntuCustom";
+  src: url("/fonts/Ubuntu/Ubuntu-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* ================= ROOT ================= */
+
+:root {
+  --font-heading: "UbuntuCustom", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-subtitle: "UbuntuCustom", sans-serif;
+
+  /* COLOR SYSTEM */
+  --color-base: #FFF7ED;
+  --color-primary: #FACC15;
+  --color-accent: #FB923C;
+  --color-text: #1F2937;
+  --color-subtext: #6B7280;
+}
+
+/* ================= GLOBAL ================= */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-base);
+  color: var(--color-text);
+}
+
+/* ================= TYPOGRAPHY ================= */
+
+/* TITLE → Ubuntu Bold */
+h1, h2, h3 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+/* SUBTITLE → Ubuntu Light */
+.font-subtitle {
+  font-family: var(--font-subtitle);
+  font-weight: 300;
+}
+
+/* ================= UI POLISH ================= */
+
+section {
+  will-change: transform, opacity;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-primary);
+  border-radius: 10px;
+}
