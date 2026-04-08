@@ -38,7 +38,7 @@ export default function Contact() {
           <motion.a
             whileHover={{ scale: 1.2, y: -5 }}
             transition={{ type: "spring", stiffness: 300 }}
-            href="https://www.instagram.com/triggie_food/"
+            href="https://www.instagram.com/trigie_food/"
           >
             <Image
               src="/images/sosmed/instagram.png"

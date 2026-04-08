@@ -11,7 +11,7 @@ export default function CTA() {
         Laper? Jangan Ditahan!
       </h2>
 
-      <p className="mt-4 max-w-xl mx-auto font-subtitle opacity-70">
+      <p className="mt-4 max-w-xl mx-auto font-subtitle text-lg md:text-xl opacity-70 leading-relaxed">
         Klik sekarang dan rasain sendiri kenapa banyak yang ketagihan.
       </p>
 

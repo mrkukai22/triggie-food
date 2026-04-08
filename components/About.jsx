@@ -93,11 +93,11 @@ export default function About() {
         <Reveal direction="right" delay={0.2}>
           <div>
             <h2 className="text-4xl font-bold mb-6">
-              Tentang Triggie Food
+              Tentang Trigie Food
             </h2>
 
             <p className="opacity-70 mb-6 font-subtitle text-xl leading-relaxed">
-              Triggie Food hadir dengan konsep street food modern dengan rasa premium.
+              Trigie Food hadir dengan konsep street food modern dengan rasa premium.
               Dimsum mentai kami dibuat fresh setiap hari dengan topping melimpah dan rasa yang bikin nagih.
             </p>
           </div>

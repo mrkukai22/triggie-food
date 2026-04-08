@@ -25,7 +25,7 @@ export default function FloatingSocial() {
 
       {/* INSTAGRAM */}
       <motion.a
-        href="https://www.instagram.com/triggie_food/"
+        href="https://www.instagram.com/trigie_food/"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         whileHover={{ scale: 1.2 }}
